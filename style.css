@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Almendra:wght@700&family=Charm&family=DM+Sans:opsz,wght@9..40,300&family=Inter:wght@300&family=Jost:wght@300&display=swap');
+
+*{
+    margin: 0px;
+    font-family: 'Almendra', serif;
+    font-family: 'Charm', cursive;
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Jost', sans-serif;
+    
+}
+
+nav {
+    height: 90px;
+    width: 100%;
+    background-color: rgb(0, 0, 0,0.3);
+    backdrop-filter: blur(5px);
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+    z-index: 100;
+}
+
+.nav-logo img {
+    height: 50px;
+    width: 120px;
+    margin: 4px 10px 7px 30px;
+}
+
+nav .nav-items{
+    position: absolute;
+    right: 20px;
+}
+
+.nav-items a{
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 5px;
+    color: rgb(189, 187, 187);
+}
+
+.nav-items:hover a{
+    filter: blur(1.5px);
+}
+
+.nav-items a:hover{
+    color: whitesmoke;
+    filter: blur(0px);
+    font-size: 20px;
+    text-shadow: 2px 2px gray;
+}
+
+.carousel-inner .carousel-item img{
+    margin: 0px 0px 0px 60px;
+    width: 90%;
+    height: 492px;
+}
+
+.carousel-control-prev-icon {
+    position: relative;
+    left:100px;
+}
+
+.carousel-control-next-icon{
+    position: relative;
+    right:100px;
+} 
+
+
+.frequent-image{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.frequent-image img{
+    margin:5px;
+    height: 270px;
+    width: 200px;
+    padding: 10px;
+}
+
+.frequent-image img:hover{
+    transform: translate();
+    scale:1.2;
+    filter: drop-shadow(10px);
+    transition: all .5s ease-in-out;
+    border-radius: 10px;
+}
+
+#carouselExampleAutoplaying{
+    margin:90px;
+}
+
+.recent-image{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.recent-image img{
+    margin:5px;
+    height: 270px;
+    width: 200px;
+    padding: 10px;
+}
+
+.recent-image img:hover{
+    transform: translate();
+    scale:1.2;
+    filter: drop-shadow(10px);
+    transition: all .5s ease-in-out;
+    border-radius: 10px;
+}
+
+.toprate-image{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.toprate-image img{
+    margin:5px;
+    height: 270px;
+    width: 200px;
+    padding: 10px;
+}
+
+.toprate-image img:hover{
+    transform: translate();
+    scale:1.2;
+    filter: drop-shadow(10px);
+    transition: all .5s ease-in-out;
+    border-radius: 10px;
+}
+
+.fav-image{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.fav-image img{
+    margin:5px;
+    height: 270px;
+    width: 200px;
+    padding: 10px;
+}
+
+.fav-image img:hover{
+    transform: translate();
+    scale:1.2;
+    filter: drop-shadow(10px);
+    transition: all .5s ease-in-out;
+    border-radius: 10px;
+}
+
+.outer-about{
+    display: flex;
+}
+
+.outer-about .inner-about{
+    height: 230px;
+    width: 300px;
+    background-color:black;
+    margin: 5px 5px 10px 10px;
+}
+
+
+.inner-about .dabba{
+    display: flex;
+}
+
+.the-end{
+    /* position:relative; */
+    position: absolute;
+    left:900px;
+    /* bottom: 62px; */
+    top:3920px;
+}
+
+.outer-about{
+    margin-top: 100px;
+}
+
+.outer-about .inner-about{
+    margin: 10px;
+    padding: 10px;
+    color: whitesmoke;
+}
+.outer-about .inner-about a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.outer-about .inner-about p{
+    font-size: 14px;
+    font-weight:400;
+    color: rgb(223, 223, 250);
+}
+.outer-about .inner-about .eng{
+    padding-top: 5px ;
+}
+
+footer{
+    font-size: 14px;
+    color: rgb(223, 223, 250);
+    margin: 0px 5px 5px 20px;
+
+}
+footer a{
+    font-size: 14px;
+    color: rgb(223, 223, 250);
+    text-decoration: none;
+    padding: 0px 5px 0px 3px;
+}
+#freqwat, #rec, #tr, #fa{
+    font-weight: 500;
+    margin-left: 15px;
+    margin-bottom: 30px;
+    margin-top: 50px;
+    color: whitesmoke;
+    font-size: 23px;
+    text-shadow: 2px 2px gray;
+}
+
+.empty{
+    height: 50px;
+}
